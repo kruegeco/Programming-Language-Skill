@@ -13,3 +13,10 @@ squares = [x ** 2 for x in range(1, 11)]
 print filter(lambda x: x >= 30 and x <= 70, squares)
 
 #15 of 18 Not worth it
+
+#18 of 18
+garbled = "IXXX aXXmX aXXXnXoXXXXXtXhXeXXXXrX sXXXXeXcXXXrXeXt mXXeXsXXXsXaXXXXXXgXeX!XX"
+
+message = filter(lambda x: x != 'X', garbled)
+
+print message
