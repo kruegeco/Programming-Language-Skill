@@ -47,9 +47,10 @@ backwards_by_tens = to_one_hundred[::-10]
 print backwards_by_tens
 
 #11 of 18
-#12 of 18
-#13 of 18
-#14 of 18
-#9 of 18
-#9 of 18
-#9 of 18
+to_21 = range(1,22)
+
+odds = to_21[::2]
+
+middle_third = to_21[7:14:]
+
+
